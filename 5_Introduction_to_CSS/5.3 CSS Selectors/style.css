@@ -1,0 +1,30 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+p{
+  color: red;
+}
+
+/* class */
+.note{
+  font-size: 20px;
+}
+
+/* id - should be unique / one element in a file */
+#id-selector-demo{
+  color: green;
+}
+
+/* li elements with value set to 4 / multiple conditions */
+li[value="4"]{
+  color:blue;
+}
+
+/* Select all with * / apply the style to everything */
+*{
+  text-align: center;
+}
