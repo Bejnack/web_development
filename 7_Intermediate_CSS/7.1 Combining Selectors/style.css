@@ -1,1 +1,26 @@
 /* Write your code here: */
+/* Combination seletor - 2 Parameters (selector, selector)*/
+h1, h2{
+    color: blueviolet;
+}
+
+/* Child selector - works only 1 level down (selector > selector)*/
+.box > .done{
+    color: firebrick;
+}
+
+/* descendant selector - works for all level descendants (selector selector)*/
+.box li{
+    color: blue;
+}
+
+/* Chaining selectors - Apply where all selectors all true (nospace selectorselector) */
+li.done{
+    color: seagreen;
+}
+
+/* Combining combinations (selector selectorselector can use also > instead of space) */
+ul p.done{
+    font-size: 0.5rem;
+} 
+
